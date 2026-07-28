@@ -1,7 +1,7 @@
 # Change current BASH prompt color
 ```sh
 vi ~/.bashrc
-export PS1="\[\e[36m\]\u@\h\[\e[0m\]:\[\e[33m\]\w\[\e[0m\]\$ "
+export PS1="\[\e[36m\]\u@\h\[\e[0m\]:\[\e[33m\]\W\[\e[0m\]\$ "
 ```
 MySQL Prompt.
 ```sh
